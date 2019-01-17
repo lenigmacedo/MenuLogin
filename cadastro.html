@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+<div class="form-alinha">
+    <div class="form-bg">
+        <div class="form-head"> 
+            <h1> Registro </h1>
+        </div>
+        <div class="form-body-cad">
+            <form name="formcad" method="POST">
+            <input type="email" name="email" id="email" placeholder="Insira seu email">
+            <input type="text" name="cpf" id="cpf" placeholder="Insira seu CPF" >
+            <input type="text" name="rg" id="rg" placeholder="Insira seu RG">
+            <input type="date" name="dtnasc" id="dtnasc" placeholder="Insira sua data de nascimento">
+            <input type="password" name="senha" id="senha" placeholder="Insira sua senha"> 
+            
+        </div>
+
+        <div class="form-footer">
+            <button type="submit" name="btn_cad" id="button" onclick="document.formcad.action='criar_conta.php'"> Registrar </button>
+            <a href="index.html"> Já possuo conta </a>
+        </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
